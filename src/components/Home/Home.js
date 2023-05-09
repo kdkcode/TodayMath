@@ -8,7 +8,7 @@ function Home() {
 
   const images = [
     "/img/main.png",
-    "/img/main2.png",
+    "/img/main.png",
   ];
 
   const goToNextImage = () => {
@@ -40,6 +40,9 @@ function Home() {
         <img src={images[currentImageIndex]} alt="main" />
         <button onClick={goToPrevImage} className="image-gallery-button-left"></button>
         <button onClick={goToNextImage} className="image-gallery-button-right"></button>
+      </div>
+      <div>
+        <img id='submainimg' src = "/img/submain.png" alt='submain'></img>
       </div>
       <div className="teacher">
         <div id="teacher">
