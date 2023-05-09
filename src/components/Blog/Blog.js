@@ -1,5 +1,3 @@
-import { useState } from "react";
-import { Link } from "react-router-dom";
 import "./Blog.css";
 import React from 'react';
 
