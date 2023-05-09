@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./Consult.css";
 import React from 'react';
+import {Helmet} from 'react-helmet';
 
 function Consult() {
 const [studentName, setStudentName] = useState("");
@@ -54,6 +55,9 @@ const handleSubmit = (event) => {
 
 return (
 <div className="contact-form-container">
+      <Helmet>
+        <title>오늘수학 | 상담문의</title>
+      </Helmet>
 <h2>상담문의</h2>
 <form onSubmit={handleSubmit}>
 <div className="form-group">

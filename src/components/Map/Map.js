@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react';
 import "./Map.css";
 import React from 'react';
-
+import {Helmet} from 'react-helmet';
 
 function Map() {
   const mapElement = useRef(null);
@@ -35,7 +35,9 @@ function Map() {
   return (
     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
     <div style={{ width: '80vw', height: '100vh', minHeight: '400px', display: 'flex',flexDirection:'column'}}>
-
+      <Helmet>
+        <title>오늘수학 | 오시는길</title>
+      </Helmet>
       <h1 class="head">오시는 길</h1><br></br>
       <p>서울시 양천구 신목로7길 9 2층</p>
       <p>중,고등부 010-2418-3881</p><br></br>
