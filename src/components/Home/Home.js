@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./Home.css";
 import {Helmet} from 'react-helmet';
+import React from 'react';
 
 function Home() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);

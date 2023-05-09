@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react';
 import "./Map.css";
-
+import React from 'react';
 
 
 function Map() {

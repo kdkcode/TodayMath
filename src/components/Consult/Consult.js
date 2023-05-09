@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./Consult.css";
+import React from 'react';
 
 function Consult() {
 const [studentName, setStudentName] = useState("");
