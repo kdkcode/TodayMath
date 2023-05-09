@@ -43,7 +43,10 @@ function Menubar() {
       </div>
 
       <div ref={dropdownRef} className={`menu-items-container ${isDropdownOpen ? "open" : ""}`}>
-	  <div id="logo">오늘수학 x 에반이즈</div>
+	  <div id="logo">
+    <Link to="/" onClick={handleMenuItemClick}><img id="logoimg" src="/img/logo4.png" alt="오늘수학 x 에반이즈"></img></Link>
+    </div>
+
         <div className="menu-item">
           <Link to="/" onClick={handleMenuItemClick}>
             Home

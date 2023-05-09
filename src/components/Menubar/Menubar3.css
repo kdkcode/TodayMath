@@ -24,7 +24,11 @@
   padding-left: 30px;
   z-index: 0; /* 다른 요소보다 앞에 나타나도록 z-index 설정 */
   }
-
+  #logoimg {
+    max-width: 80px;
+    height: auto;
+  }
+  
   .menu-items-container {
     display: none;
     flex-direction: column;
