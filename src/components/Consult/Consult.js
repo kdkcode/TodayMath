@@ -21,7 +21,7 @@ const handleSubmit = (event) => {
     console.log("Parent Phone: ", parentPhone);
     console.log("Message: ", message);
   
-    fetch('/send-email', {
+    fetch('https://young-shore-86388.herokuapp.com/send-email/send-email', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
