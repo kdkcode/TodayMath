@@ -1,0 +1,40 @@
+.dropdown-content {
+	display: none;
+  }
+  
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+  
+.menu-bar{
+	display: flex;
+	flex-direction: row;
+	border: solid 1px black;
+	justify-content: right;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	align-items: center;
+	flex-wrap:nowrap;
+	
+}
+
+.menu-bar div{
+	padding: 5px;
+	border: solid 1px;
+	margin:10px;
+	width: 350px;
+}
+
+.menu-bar div:hover {
+	color: red;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+#logo{
+	margin-right:70%;
+	
+}

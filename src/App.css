@@ -13,6 +13,11 @@
   }
 }
 
+@font-face {
+  font-family: 'Poor Story', cursive;
+  src: url('./fonts/IBMPlexSansKR-Bold.ttf');
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
