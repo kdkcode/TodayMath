@@ -5,7 +5,6 @@ import React from 'react';
 
 function Home() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
-  const [isPlaying, setIsPlaying] = useState(true);
 
   const images = [
     "/img/main.png",
@@ -24,15 +23,13 @@ function Home() {
 
   useEffect(() => {
     const intervalId = setInterval(() => {
-      if (isPlaying) {
-        goToNextImage();
-      }
+      goToNextImage();
     }, 5000);
 
     return () => {
       clearInterval(intervalId);
     };
-  }, [currentImageIndex, isPlaying]);
+  }, [currentImageIndex]);
 
   return (
     <div>
@@ -40,29 +37,19 @@ function Home() {
         <title>Home</title>
       </Helmet>
       <div className="image-gallery">
-  <img src={images[currentImageIndex]} alt="main" />
-  <button onClick={goToPrevImage} className="image-gallery-button-left"></button>
-  <button onClick={goToNextImage} className="image-gallery-button-right"></button>
-</div>
-    <div class="teacher">
-      <div id="teacher">
+        <img src={images[currentImageIndex]} alt="main" />
+        <button onClick={goToPrevImage} className="image-gallery-button-left"></button>
+        <button onClick={goToNextImage} className="image-gallery-button-right"></button>
+      </div>
+      <div className="teacher">
+        <div id="teacher">
+          <br></br>
+          강사소개
+        </div>
         <br></br>
-        강사소개
-        
-      </div>
-      <br></br>
-      <div class="teacher-img">
-     
-        <img src="/img/teacher.png" alt="teacher profile"></img>
-      </div>
-    </div>
-
-
-
-      <div className="buttons">
-        {/* <button onClick={() => setIsPlaying(!isPlaying)}>
-          {isPlaying ? "일시정지" : "재생"}
-        </button> */}
+        <div className="teacher-img">
+          <img src="/img/teacher.png" alt="teacher profile"></img>
+        </div>
       </div>
     </div>
   );
