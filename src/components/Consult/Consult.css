@@ -53,3 +53,22 @@
     background-color: #0069d9;
   }
   
+  @media (max-width: 600px) {
+    .form-group {
+    width: 90%;
+    }
+    
+    label {
+    font-size: 1rem;
+    }
+    
+    input,
+    textarea {
+    font-size: 1rem;
+    }
+    
+    button[type="submit"] {
+    font-size: 1rem;
+    padding: 8px;
+    }
+    }
