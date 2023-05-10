@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState, useRef, useEffect } from "react";
 import { Link } from "react-router-dom";
-import "./Menubar3.css";
+import "./Menubar4.css";
 
 function Menubar() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -31,7 +31,7 @@ function Menubar() {
 
   return (
     <div className="menu-bar">
-      
+     
 
       <div
         className={`menu-button ${isDropdownOpen ? "open" : ""}`}
@@ -41,12 +41,14 @@ function Menubar() {
         <div className="menu-button-line" />
         <div className="menu-button-line" />
       </div>
-
+      <div id="todaymath">
+        <h1>오늘수학</h1>
+      </div>
       <div ref={dropdownRef} className={`menu-items-container ${isDropdownOpen ? "open" : ""}`}>
 	  <div id="logo">
-    <Link to="/" onClick={handleMenuItemClick}><img id="logoimg" src="/img/logo5.png" alt="오늘수학 x 에반이즈"></img></Link>
+    <Link to="/" onClick={handleMenuItemClick}><img id="logoimg" src="/img/logo6.png" alt="오늘수학 x 에반이즈"></img></Link>
     </div>
-
+      <div className="menu-item-group">
         <div className="menu-item">
           <Link to="/" onClick={handleMenuItemClick}>
             Home
@@ -81,6 +83,7 @@ function Menubar() {
           <Link to="/map" onClick={handleMenuItemClick}>
             오시는길
           </Link>
+        </div>
         </div>
       </div>
     </div>
