@@ -10,7 +10,7 @@ function Plan() {
       <Helmet>
         <title>2023 | 수업시간표</title>
       </Helmet>
-      <img src = "/img/plan.png" alt="plan"></img>
+      <img src = "/img/planner.png" alt="plan"></img>
       
     </div>
   
