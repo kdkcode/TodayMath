@@ -7,7 +7,7 @@ function Home() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   const images = [
-    "/img/main.png",
+    "/img/002.png",
     "/img/001.png",
   ];
 
