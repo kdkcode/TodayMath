@@ -8,8 +8,9 @@ function Home() {
 
   const images = [
     "/img/002.png",
-    "/img/001.png",
+    "/img/003.png",
     "/img/main3.png",
+    "/img/005.png",
   ];
 
   const goToNextImage = () => {
@@ -45,7 +46,7 @@ function Home() {
       <div>
         <img id='submainimg' src = "/img/subm.jpeg" alt='submain'></img>
       </div>
-      <div className="teacher">
+      {/* <div className="teacher">
         <div id="teacher">
           <br></br>
           강사소개
@@ -54,7 +55,7 @@ function Home() {
         <div className="teacher-img">
           <img src="/img/teacher.png" alt="teacher profile"></img>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
