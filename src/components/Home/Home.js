@@ -9,6 +9,7 @@ function Home() {
   const images = [
     "/img/002.png",
     "/img/001.png",
+    "/img/main3.png",
   ];
 
   const goToNextImage = () => {
