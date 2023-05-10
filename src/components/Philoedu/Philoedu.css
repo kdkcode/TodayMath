@@ -1,52 +1,50 @@
-.content{
-	height:auto;
-
+.content {
+  height: auto;
 }
 
-.essay{
-	margin: 10px;
+.essay {
+  margin: 10px;
 }
-#edu-essay{
-	margin: 10px;
-
-	width:30%;
+#edu-essay {
+  font-family: sans-serif;
+  margin: 10px;
+  display: flex;
+  align-content: center;
 }
 
-.imgs{
-	width:auto;
-	display: flex;
-	flex-direction: column;
-	padding:3%;
-
+.imgs {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 0%;
 }
 
 .btn {
-	display: inline-block;
-	padding: 12px 24px;
-	font-size: 18px;
-	font-weight: bold;
-	color: white;
-	background-color: #007bff;
-	border-radius: 5px;
-	text-decoration: none;
-	transition: background-color 0.3s ease;
-  }
-  
-  .btn:hover {
-	background-color: #0069d9;
-  }
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background-color: #007bff;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0069d9;
+}
 div {
-	font-family: 'Poor Story';
+  font-family: "Poor Story";
 }
-#certain{
-	color:#007bff;
+#certain {
+  color: #007bff;
 }
-#study{
-	color:red;
+#study {
+  color: red;
 }
 @media (max-width: 768px) {
-	h1 {
-	  font-size: 24px;
-	}
+  h1 {
+    font-size: 24px;
   }
-  
+}
