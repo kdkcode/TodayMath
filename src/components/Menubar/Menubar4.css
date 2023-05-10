@@ -110,7 +110,7 @@
 
 #logoimg {
   max-width: 200px;
-  max-height: 90px;
+  max-height: 80px;
 }
 
 @media screen and (min-width: 1000px) {
