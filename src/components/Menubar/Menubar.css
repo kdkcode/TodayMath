@@ -17,12 +17,7 @@
 	flex-wrap:nowrap;
 	
 }
-#todaymath{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	border: 1px solid;
-}
+
   
 .menu-bar div{
 	padding: 5px;
