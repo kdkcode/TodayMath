@@ -34,7 +34,7 @@ function Home() {
   return (
     <div>
       <Helmet>
-        <title>Home</title>
+        <title>오늘수학|목동점</title>
       </Helmet>
       <div className="image-gallery">
         <img src={images[currentImageIndex]} alt="main" />
