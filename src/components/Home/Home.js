@@ -8,7 +8,7 @@ function Home() {
 
   const images = [
     "/img/main.png",
-    "/img/main.png",
+    "/img/001.png",
   ];
 
   const goToNextImage = () => {

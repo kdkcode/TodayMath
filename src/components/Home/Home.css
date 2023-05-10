@@ -41,8 +41,11 @@
   }
   /* vh(Virtual Height)는 화면 높이의 1/100을 나타내는 단위입니다. 예를 들어, 100vh는 현재 화면의 높이와 같습니다. */
   .image-gallery img {
-	width: 80%;
-	height: 70vh; 
+	width: 98%;
+	height: 40vh; 
+  }
+  #submainimg{
+	width: 98%;
   }
   #teacher{
 	color: white;
