@@ -42,7 +42,7 @@ function Menubar() {
         <div className="menu-button-line" />
       </div>
       <div id="todaymath">
-        <h1>오늘수학</h1>
+      <Link to="/" onClick={handleMenuItemClick}><h3>오늘수학</h3></Link>
       </div>
       <div ref={dropdownRef} className={`menu-items-container ${isDropdownOpen ? "open" : ""}`}>
 	  <div id="logo">
