@@ -53,7 +53,7 @@
     background-color: #0069d9;
   }
   
-  @media (max-width: 600px) {
+  @media (max-width: 700px) {
     .form-group {
     width: 78%;
     }
