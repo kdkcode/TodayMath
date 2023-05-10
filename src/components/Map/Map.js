@@ -28,7 +28,7 @@ function Map() {
 
     // 마커를 클릭했을 때 이벤트 등록
     naver.maps.Event.addListener(marker, 'click', function() {
-      window.open('https://naver.me/xPpehJgL', '_blank');
+      window.open('https://naver.me/xxxFdN2G', '_blank');
     });
   }, []);
 

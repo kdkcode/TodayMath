@@ -19,23 +19,23 @@
 }
 
 .image-gallery button {
-	position: absolute;
-	top: 97%;
-	transform: translateY(-50%);
-	background-color: rgba(0, 0, 0, 0.2);
-	color: white;
-	border: none;
-	padding: 0.5rem 1rem;
-	cursor: pointer;
-	border-radius: 50px;
+  position: absolute;
+  top: 97%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 50px;
 }
 
 .image-gallery button:first-of-type {
-	left: calc(50% - 40px);
+  left: calc(50% - 40px);
 }
 
 .image-gallery button:last-of-type {
-	right: calc(50% - 40px);
+  right: calc(50% - 40px);
 }
 
 /* vh(Virtual Height)는 화면 높이의 1/100을 나타내는 단위입니다. 예를 들어, 100vh는 현재 화면의 높이와 같습니다. */
@@ -71,5 +71,15 @@
   .image-gallery img {
     width: 98%;
     height: 50vh;
+    max-width: 88%;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  #submainimg{
+    max-width: 66%;
+    width: auto;
+    display: block;
+    margin: 0 auto;
   }
 }

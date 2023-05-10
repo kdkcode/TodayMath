@@ -2,6 +2,7 @@
 	background-color: #007aff;
 	height: 80px;
 	margin-top: 0px;
+	color: white;
 
 }
 
@@ -44,4 +45,14 @@ hr{
 #consult-img{
 	width:80%;
 }
-  
+@media (min-width: 800px) {
+	#consult-img {
+	  width: 98%;
+
+	  max-width: 88%;
+	  width: auto;
+	  display: block;
+	  margin: 0 auto;
+	}
+
+  }
