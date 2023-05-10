@@ -42,7 +42,7 @@ function Home() {
         <button onClick={goToNextImage} className="image-gallery-button-right"></button>
       </div>
       <div>
-        <img id='submainimg' src = "/img/submain.png" alt='submain'></img>
+        <img id='submainimg' src = "/img/subm.jpeg" alt='submain'></img>
       </div>
       <div className="teacher">
         <div id="teacher">
