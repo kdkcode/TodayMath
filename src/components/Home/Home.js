@@ -36,7 +36,7 @@ function Home() {
   return (
     <div>
       <Helmet>
-        <title>오늘수학|목동점</title>
+        <title>오늘수학 | 소수정예 목동수학</title>
       </Helmet>
       <div className="image-gallery">
         <img src={images[currentImageIndex]} alt="main" />
